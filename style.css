@@ -1,6 +1,7 @@
 html {
   background-color: hsl(218, 28%, 13%);
   color: #fff;
+  font-family: 'Raleway';
 }
 
 /*nav*/
@@ -14,14 +15,15 @@ html {
 }
 
 .nav-logo img {
-  width: 80px;
-  padding-top: 25px;
-  padding-left: 20px;
+  width: 220px;
+  padding-top: 50px;
+  padding-left: 50px;
 }
 
 .nav-menu {
   float: right;
-
+  margin-top: 10px;
+  margin-right: 20px;
 }
 
 .nav-menu ul {
@@ -29,10 +31,30 @@ html {
 }
 
 .nav-menu li {
-  font-family: 'Raleway';
   font-weight: 400;
   display: inline-block;
-  font-size: 0.8rem;
-  padding: 15px;
+  font-size: 2.2rem;
+  padding-top: 35px;
+  padding-right: 40px;
 }
+
+/*-----header-----*/
+.header {
+  width: 375px;
+  text-align: center;
+}
+
+.header-image {
+  padding-top: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.header-text {
+  margin: 0 auto;
+}
+
+
 /*main*/
